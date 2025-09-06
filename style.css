@@ -1,0 +1,228 @@
+/* ===== Global Styles ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  body {
+    background: #f9fafb; /* light overall background */
+    color: #1f2937;       /* default dark text */
+    line-height: 1.6;
+  }
+  
+  /* ===== Navbar ===== */
+  header {
+    background: #111827; /* dark navbar like resume */
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav .logo {
+    color: #38bdf8;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #f3f4f6;
+    font-weight: 500;
+    transition: 0.3s;
+  }
+  
+  nav ul li a:hover {
+    color: #38bdf8;
+  }
+  
+  /* ===== Hero Section ===== */
+  .hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #e5e7eb; /* light hero */
+    padding: 2rem;
+  }
+  
+  .hero-text h2 {
+    font-size: 2.5rem;
+    color: #1f2937;
+  }
+  
+  .hero-text .highlight {
+    color: #2563eb;
+  }
+  
+  .hero-text p {
+    margin: 1rem 0;
+    font-size: 1.1rem;
+    color: #4b5563;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background: #2563eb;
+    color: #f3f4f6;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .btn:hover {
+    background: #1e40af;
+    color: #fff;
+  }
+  .intro {
+    font-size: 3.5rem;   /* size bada */
+    font-weight: 900;    /* bold */
+    color: black;
+  }
+  
+  .intro span {
+    opacity: 0;
+    display: inline-block;
+    animation: fadeIn 1s forwards;
+  }
+  
+  .intro span:nth-child(1) { animation-delay: 0s; }
+  .intro span:nth-child(2) { animation-delay: 0.8s; }
+  .intro span:nth-child(3) { animation-delay: 1.6s; }
+  .intro span:nth-child(4) { animation-delay: 2.4s; }
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+  
+  
+  
+  
+  /* ===== Sections Dark ===== */
+  .section-dark {
+    background: #1f2937; /* dark like resume */
+    color: #f3f4f6;
+    padding: 5rem 2rem;
+  }
+  
+  .section-dark h2 {
+    color: #38bdf8; /* headings visible */
+  }
+  
+  /* ===== Sections Light ===== */
+  .section-light {
+    background: #f3f4f6; /* light like contact */
+    color: #1f2937;
+    padding: 5rem 2rem;
+  }
+  
+  .section-light h2 {
+    color: #2563eb;
+  }
+  
+  /* ===== Skills ===== */
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 2rem;
+  }
+  
+  .skill-card {
+    background: #111827; /* dark card */
+    padding: 2rem;
+    border-radius: 10px;
+    transition: 0.3s;
+    color: #f3f4f6;
+  }
+  
+  .skill-card:hover {
+    transform: translateY(-5px);
+    background: #374151;
+  }
+  
+  .skill-card i {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #38bdf8;
+  }
+  
+  /* ===== Projects ===== */
+  #projects {
+    background: #1f2937; /* dark like resume */
+    color: #f3f4f6;
+    padding: 5rem 2rem;
+  }
+  
+  #projects h2 {
+    color: #38bdf8; /* heading blue */
+  }
+  
+  /* Project description normal text */
+  #projects p {
+    color: #f3f4f6; /* normal light text */
+    font-size: 1.05rem;
+    line-height: 1.7;
+  }
+  
+  .project-card {
+    background: #2563eb; /* optional card background */
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.3s;
+    color: #f3f4f6;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  }
+  
+  .project-card img {
+    width: 100%;
+    height: 250px;      /* same height for all images */
+    object-fit: cover;   /* crop nicely */
+    border-radius: 8px;
+  }
+  
+  /* ===== Contact ===== */
+  #contact {
+    background: #f3f4f6; /* light background */
+    color: #1f2937;
+  }
+  
+  #contact a {
+    color: #2563eb;
+    text-decoration: none;
+  }
+  
+  #contact a:hover {
+    text-decoration: underline;
+  }
+  
+  /* ===== Footer ===== */
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background: #111827; /* dark footer */
+    color: #f3f4f6;
+    border-top: 1px solid #d1d5db;
+  }
+  
