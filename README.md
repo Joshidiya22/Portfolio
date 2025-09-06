@@ -30,7 +30,7 @@ This project is designed to showcase my **skills, projects, and experience** in 
 ---
 
 ## 🔗 Live Demo
-👉 [Click here to view my portfolio](https://github.com/Joshidiya22/Portfolio)  
+👉 [Click here to view my portfolio](https://soft-tulumba-b5232a.netlify.app/)  
 
 ---
 
