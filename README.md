@@ -23,14 +23,14 @@ This project is designed to showcase my **skills, projects, and experience** in 
 
 ## 📸 Screenshots
 
-### 🔹 Home Page
-![Home Page](./assets/home.png)
+<img width="870" height="580" alt="image" src="https://github.com/user-attachments/assets/023fc37e-551c-4f1a-9532-e94db8d6e399" />
+
 
 
 ---
 
 ## 🔗 Live Demo
-👉 [Click here to view my portfolio](https://your-Joshidiya22.github.io/portfolio-heading/)  
+👉 [Click here to view my portfolio](https://github.com/Joshidiya22/Portfolio)  
 
 ---
 
